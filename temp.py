@@ -92,4 +92,5 @@ for car_key, car_data in time_series_dict.items():
     
     # Display the plot
     plt.show()
+    plt.savefig(str(car_number)+'.png', format='png')
 
